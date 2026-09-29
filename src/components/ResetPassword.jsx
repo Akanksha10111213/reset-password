@@ -28,21 +28,21 @@ function ResetPassword() {
 
   const strength = getPasswordStrength(password);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
 
-    if (password !== confirmPassword) {
-      setMessage("Passwords do not match.");
-      return;
-    }
+  //   if (password !== confirmPassword) {
+  //     setMessage("Passwords do not match.");
+  //     return;
+  //   }
 
-    if (password.length < 8) {
-      setMessage("Password must be at least 8 characters.");
-      return;
-    }
+  //   if (password.length < 8) {
+  //     setMessage("Password must be at least 8 characters.");
+  //     return;
+  //   }
 
-    setMessage("Password reset successfully! (Demo only)");
-  };
+  //   setMessage("Password reset successfully! (Demo only)");
+  // };
 
   return (
     <main className="reset-page">
