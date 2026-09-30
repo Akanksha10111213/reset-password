@@ -105,9 +105,10 @@ button {
 .brand-text h1 {
   margin: 0;
 
-  font-size: 17px;
-
-  font-weight: 700;
+  font-size: 15px;
+color: #ffffff;
+  font-weight: 600;
+  letter-spacing: normal;
 
   line-height: 1.1;
 }
