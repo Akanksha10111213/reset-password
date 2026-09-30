@@ -563,11 +563,11 @@ button {
 
 .testimonial {
   position: absolute;
-
+/* 
   left: 5.7vw;
-  right: 7vw;
+  right: 7vw; */
 
-  bottom: 35px;
+  bottom: 10px;
 
   min-height: 60px;
 
@@ -638,12 +638,18 @@ button {
   align-items: center;
   width: 100%;
   margin-top: 12px;
+  filter: contrast(100%);
 }
 
+.arrow{
+  height: 15px;
+width: 15px;
+
+}
 .reset-illustration {
   display: block;
-  width: min(100%, 370px);
-  height: 220px;
+  width: min(100%, 400px);
+  height: 290px;
   object-fit: contain;
   mix-blend-mode: multiply;
   border-radius: 4px;
@@ -705,8 +711,8 @@ button {
 }
 
 .inner-circle {
-  width: 62px;
-  height: 62px;
+  /* width: 62px; */
+  height: 150px;
 
   display: flex;
 
@@ -715,7 +721,7 @@ button {
 
   border-radius: 50%;
 
-  background: #77c7a5;
+  /* background: #77c7a5; */
 }
 
 .inner-circle svg {
@@ -807,7 +813,7 @@ button {
 
   color: #71829e;
 
-  font-size: 16px;
+  font-size: 13px;
 
   line-height: 1.45;
 }
