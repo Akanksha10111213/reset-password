@@ -24,7 +24,7 @@ button {
    MAIN PAGE
 ===================================== */
 
-.success-page {
+.successPage-success-page {
   width: 100%;
   min-height: 100vh;
 
@@ -39,7 +39,7 @@ button {
    LEFT SECTION
 ===================================== */
 
-.left-section {
+.successPage-left-section {
   position: relative;
 
   min-height: 100vh;
@@ -69,14 +69,14 @@ button {
    BRAND
 ===================================== */
 
-.brand {
+.successPage-brand {
   display: flex;
   align-items: center;
 
   gap: 14px;
 }
 
-.brand-icon {
+.successPage-brand-icon {
   width: 48px;
   height: 48px;
 
@@ -89,7 +89,7 @@ button {
   background: #17376d;
 }
 
-.brand-icon svg {
+.successPage-brand-icon svg {
   width: 27px;
   height: 27px;
 
@@ -102,7 +102,7 @@ button {
   stroke-linejoin: round;
 }
 
-.brand-text h1 {
+.successPage-brand-text h1 {
   margin: 0;
 
   font-size: 15px;
@@ -113,7 +113,7 @@ color: #ffffff;
   line-height: 1.1;
 }
 
-.brand-text p {
+.successPage-brand-text p {
 
 
   font-size: 8px;
@@ -126,7 +126,7 @@ color: #ffffff;
    LEFT CONTENT
 ===================================== */
 
-.left-content {
+.successPage-left-content {
   position: relative;
 
   z-index: 3;
@@ -134,7 +134,7 @@ color: #ffffff;
   margin-top: 10px;
 }
 
-.eyebrow {
+.successPage-eyebrow {
   margin-bottom: 12px;
 
   font-size: 16px;
@@ -144,7 +144,7 @@ color: #ffffff;
   letter-spacing: 0.5px;
 }
 
-.left-content h2 {
+.successPage-left-content h2 {
   margin: 0 0 10px;
 
   color: white;
@@ -158,7 +158,7 @@ color: #ffffff;
   font-weight: 700;
 }
 
-.left-content p {
+.successPage-left-content p {
   margin: 0;
 
   color: rgba(255, 255, 255, 0.95);
@@ -173,7 +173,7 @@ color: #ffffff;
    DUMMY ILLUSTRATION
 ===================================== */
 
-.illustration {
+.successPage-illustration {
   position: absolute;
 
   left: 8%;
@@ -187,7 +187,7 @@ color: #ffffff;
 
 /* White ellipse */
 
-.illustration::before {
+.successPage-illustration::before {
   content: "";
 
   position: absolute;
@@ -206,7 +206,7 @@ color: #ffffff;
 
 /* Clipboard */
 
-.clipboard {
+.successPage-clipboard {
   position: absolute;
 
   left: 13%;
@@ -224,7 +224,7 @@ color: #ffffff;
   padding: 16px;
 }
 
-.clip {
+.successPage-clip {
   position: absolute;
 
   top: -18px;
@@ -238,7 +238,7 @@ color: #ffffff;
   background: #1b3454;
 }
 
-.paper {
+.successPage-paper {
   width: 100%;
   height: 100%;
 
@@ -247,7 +247,7 @@ color: #ffffff;
   background: #f5f5f3;
 }
 
-.line {
+.successPage-line {
   height: 7px;
 
   margin-bottom: 10px;
@@ -257,12 +257,12 @@ color: #ffffff;
   background: #d0d3d5;
 }
 
-.line.large {
+.successPage-line.large {
   width: 80%;
   background: #7e8790;
 }
 
-.check-row {
+.successPage-check-row {
   height: 30px;
 
   display: flex;
@@ -272,7 +272,7 @@ color: #ffffff;
   justify-content: space-between;
 }
 
-.check-row span {
+.successPage-check-row span {
   width: 72%;
 
   height: 6px;
@@ -282,7 +282,7 @@ color: #ffffff;
   background: #d2d5d6;
 }
 
-.check-row svg {
+.successPage-check-row svg {
   width: 19px;
   height: 19px;
 
@@ -298,7 +298,7 @@ color: #ffffff;
    PERSON
 ===================================== */
 
-.person {
+.successPage-person {
   position: absolute;
 
   left: 55%;
@@ -313,7 +313,7 @@ color: #ffffff;
 
 /* Head */
 
-.face {
+.successPage-face {
   position: absolute;
 
   left: 48px;
@@ -330,7 +330,7 @@ color: #ffffff;
 
 /* Hair */
 
-.hair {
+.successPage-hair {
   position: absolute;
 
   left: 42px;
@@ -349,7 +349,7 @@ color: #ffffff;
 
 /* Body */
 
-.body {
+.successPage-body {
   position: absolute;
 
   left: 32px;
@@ -359,7 +359,7 @@ color: #ffffff;
   height: 130px;
 }
 
-.shirt {
+.successPage-shirt {
   position: absolute;
 
   left: 22px;
@@ -370,7 +370,7 @@ color: #ffffff;
   background: #f5f5f2;
 }
 
-.jacket {
+.successPage-jacket {
   position: absolute;
 
   width: 100%;
@@ -384,8 +384,8 @@ color: #ffffff;
 
 /* Arms */
 
-.body::before,
-.body::after {
+.successPage-body::before,
+.successPage-body::after {
   content: "";
 
   position: absolute;
@@ -400,13 +400,13 @@ color: #ffffff;
   top: 10px;
 }
 
-.body::before {
+.successPage-body::before {
   left: -20px;
 
   transform: rotate(20deg);
 }
 
-.body::after {
+.successPage-body::after {
   right: -20px;
 
   transform: rotate(-20deg);
@@ -415,7 +415,7 @@ color: #ffffff;
 
 /* Legs */
 
-.leg {
+.successPage-leg {
   position: absolute;
 
   top: 180px;
@@ -428,13 +428,13 @@ color: #ffffff;
   background: #364c54;
 }
 
-.left-leg {
+.successPage-left-leg {
   left: 45px;
 
   transform: rotate(4deg);
 }
 
-.right-leg {
+.successPage-right-leg {
   left: 78px;
 
   transform: rotate(-4deg);
@@ -443,7 +443,7 @@ color: #ffffff;
 
 /* Shoes */
 
-.shoe {
+.successPage-shoe {
   position: absolute;
 
   top: 268px;
@@ -456,11 +456,11 @@ color: #ffffff;
   background: #f5f5f3;
 }
 
-.left-shoe {
+.successPage-left-shoe {
   left: 33px;
 }
 
-.right-shoe {
+.successPage-right-shoe {
   left: 74px;
 }
 
@@ -469,7 +469,7 @@ color: #ffffff;
    PENCIL
 ===================================== */
 
-.pencil {
+.successPage-pencil {
   position: absolute;
 
   left: 48%;
@@ -490,7 +490,7 @@ color: #ffffff;
     0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.pencil::after {
+.successPage-pencil::after {
   content: "";
 
   position: absolute;
@@ -508,7 +508,7 @@ color: #ffffff;
    GREEN CHECK
 ===================================== */
 
-.green-box {
+.successPage-green-box {
   position: absolute;
 
   left: 62%;
@@ -537,7 +537,7 @@ color: #ffffff;
    GEARS
 ===================================== */
 
-.gear {
+.successPage-gear {
   position: absolute;
 
   color: #9daabd;
@@ -545,12 +545,12 @@ color: #ffffff;
   font-size: 48px;
 }
 
-.gear-one {
+.successPage-gear-one {
   left: 28%;
   bottom: 20px;
 }
 
-.gear-two {
+.successPage-gear-two {
   left: 42%;
   bottom: 3px;
 
@@ -562,7 +562,7 @@ color: #ffffff;
    TESTIMONIAL
 ===================================== */
 
-.testimonial {
+.successPage-testimonial {
   position: absolute;
 /* 
   left: 5.7vw;
@@ -587,7 +587,7 @@ color: #ffffff;
   backdrop-filter: blur(5px);
 }
 
-.testimonial-icon {
+.successPage-testimonial-icon {
   flex: 0 0 38px;
 
   width: 38px;
@@ -603,7 +603,7 @@ color: #ffffff;
   background: #17376d;
 }
 
-.testimonial-icon svg {
+.successPage-testimonial-icon svg {
   width: 21px;
   height: 21px;
 
@@ -614,7 +614,7 @@ color: #ffffff;
   stroke-width: 1.7;
 }
 
-.testimonial strong {
+.successPage-testimonial strong {
   display: block;
 
   color: #28384d;
@@ -624,7 +624,7 @@ color: #ffffff;
   line-height: 1.3;
 }
 
-.testimonial span {
+.successPage-testimonial span {
   display: block;
 
   margin-top: 3px;
@@ -633,7 +633,7 @@ color: #ffffff;
 
   font-size: 10px;
 }
-.illustration-wrapper {
+.successPage-illustration-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -642,12 +642,12 @@ color: #ffffff;
   filter: contrast(100%);
 }
 
-.arrow{
+.successPage-arrow{
   height: 15px;
 width: 15px;
 
 }
-.reset-illustration {
+.successPage-reset-illustration {
   display: block;
   width: min(100%, 400px);
   height: 290px;
@@ -659,7 +659,7 @@ width: 15px;
    RIGHT SECTION
 ===================================== */
 
-.right-section {
+.successPage-right-section {
   min-height: 10vh;
 
   display: flex;
@@ -672,7 +672,7 @@ width: 15px;
   background: #ffffff;
 }
 
-.success-content {
+.successPage-success-content {
   width: 100%;
 
   max-width: 630px;
@@ -683,7 +683,7 @@ width: 15px;
    SUCCESS ICON
 ===================================== */
 
-.success-icon {
+.successPage-success-icon {
   position: relative;
 
   width: 160px;
@@ -697,7 +697,7 @@ width: 15px;
   justify-content: center;
 }
 
-.outer-circle {
+.successPage-outer-circle {
   width: 86px;
   height: 86px;
 
@@ -711,7 +711,7 @@ width: 15px;
   background: #edf0f1;
 }
 
-.inner-circle {
+.successPage-inner-circle {
   /* width: 62px; */
   height: 150px;
 
@@ -725,7 +725,7 @@ width: 15px;
   /* background: #77c7a5; */
 }
 
-.inner-circle svg {
+.successPage-inner-circle svg {
   width: 34px;
   height: 34px;
 
@@ -743,7 +743,7 @@ width: 15px;
 
 /* Decorative lines */
 
-.burst {
+.successPage-burst {
   position: absolute;
 
   width: 18px;
@@ -754,21 +754,21 @@ width: 15px;
   background: #17376d;
 }
 
-.burst-one {
+.successPage-burst-one {
   top: 19px;
   left: 18px;
 
   transform: rotate(42deg);
 }
 
-.burst-two {
+.successPage-burst-two {
   top: 22px;
   right: 12px;
 
   transform: rotate(-42deg);
 }
 
-.burst-three {
+.successPage-burst-three {
   top: 70px;
   left: 3px;
 
@@ -779,7 +779,7 @@ width: 15px;
   transform: rotate(10deg);
 }
 
-.burst-four {
+.successPage-burst-four {
   top: 72px;
   right: 0;
 
@@ -795,7 +795,7 @@ width: 15px;
    RIGHT TEXT
 ===================================== */
 
-.success-content h2 {
+.successPage-success-content h2 {
   margin: 0;
 
   color: #183566;
@@ -809,7 +809,7 @@ width: 15px;
   letter-spacing: -0.8px;
 }
 
-.success-content > p {
+.successPage-success-content > p {
   margin: 16px 0 30px;
 
   color: #71829e;
@@ -824,7 +824,7 @@ width: 15px;
    LOGIN BUTTON
 ===================================== */
 
-.login-button {
+.successPage-login-button {
   width: 100%;
 
   min-height: 58px;
@@ -850,19 +850,19 @@ width: 15px;
   transition: 0.2s ease;
 }
 
-.login-button:hover {
+.successPage-login-button:hover {
   background: #102a58;
 
   transform: translateY(-1px);
 }
 
-.login-button span:first-child {
+.successPage-login-button span:first-child {
   font-size: 14px;
 
   font-weight: 500;
 }
 
-.arrow {
+.successPage-arrow {
   font-size: 22px;
 }
 
@@ -871,7 +871,7 @@ width: 15px;
    SUPPORT
 ===================================== */
 
-.support {
+.successPage-support {
   margin-top: 30px;
 
   display: flex;
@@ -886,7 +886,7 @@ width: 15px;
   font-size: 13px;
 }
 
-.support-line {
+.successPage-support-line {
   width: 65px;
 
   height: 1px;
@@ -894,7 +894,7 @@ width: 15px;
   background: #96999d;
 }
 
-.support a {
+.successPage-support a {
   color: #006c97;
 
   font-weight: 700;
@@ -902,7 +902,7 @@ width: 15px;
   text-decoration: none;
 }
 
-.support a:hover {
+.successPage-support a:hover {
   text-decoration: underline;
 }
 
@@ -913,19 +913,19 @@ width: 15px;
 
 @media (max-width: 1000px) {
 
-  .success-page {
+  .successPage-success-page {
     grid-template-columns: 1fr;
   }
 
-  .left-section {
+  .successPage-left-section {
     min-height: 700px;
   }
 
-  .right-section {
+  .successPage-right-section {
     min-height: 600px;
   }
 
-  .illustration {
+  .successPage-illustration {
     top: 36%;
   }
 
@@ -934,7 +934,7 @@ width: 15px;
 
 @media (max-width: 600px) {
 
-  .left-section {
+  .successPage-left-section {
     min-height: 620px;
 
     padding:
@@ -943,31 +943,31 @@ width: 15px;
       28px;
   }
 
-  .brand-text h1 {
+  .successPage-brand-text h1 {
     font-size: 15px;
   }
 
-  .brand-text p {
+  .successPage-brand-text p {
     font-size: 10px;
   }
 
-  .left-content {
+  .successPage-left-content {
     margin-top: 25px;
   }
 
-  .eyebrow {
+  .successPage-eyebrow {
     font-size: 16px;
   }
 
-  .left-content h2 {
+  .successPage-left-content h2 {
     font-size: 30px;
   }
 
-  .left-content p {
+  .successPage-left-content p {
     font-size: 13px;
   }
 
-  .illustration {
+  .successPage-illustration {
     left: 0;
     right: 0;
 
@@ -976,7 +976,7 @@ width: 15px;
     transform: scale(0.8);
   }
 
-  .testimonial {
+  .successPage-testimonial {
     left: 22px;
     right: 22px;
 
@@ -985,22 +985,22 @@ width: 15px;
     padding: 8px 10px;
   }
 
-  .testimonial strong {
+  .successPage-testimonial strong {
     font-size: 8px;
   }
 
-  .testimonial span {
+  .successPage-testimonial span {
     font-size: 7px;
   }
 
-  .testimonial-icon {
+  .successPage-testimonial-icon {
     width: 30px;
     height: 30px;
 
     flex-basis: 30px;
   }
 
-  .right-section {
+  .successPage-right-section {
     min-height: 580px;
 
     padding:
@@ -1008,21 +1008,21 @@ width: 15px;
       24px;
   }
 
-  .success-content h2 {
+  .successPage-success-content h2 {
     font-size: 30px;
   }
 
-  .success-content > p {
+  .successPage-success-content > p {
     font-size: 14px;
   }
 
-  .support {
+  .successPage-support {
     gap: 10px;
 
     font-size: 11px;
   }
 
-  .support-line {
+  .successPage-support-line {
     width: 35px;
   }
 }

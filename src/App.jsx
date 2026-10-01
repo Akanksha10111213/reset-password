@@ -1,38 +1,43 @@
-
+// import {link} from 'react-route-dom'
 import React from "react";
 import "./App.css";
-import image from "../src/assets/amico.png"
-import image1 from "../src/assets/arrow.png"
-import image2 from "../src/assets/tick.png"
-import image3 from "../src/assets/logo.png"
-import image4 from "../src/assets/verified.png"
-  
+import image from "../src/assets/amico.png";
+import image1 from "../src/assets/arrow.png";
+import image2 from "../src/assets/tick.png";
+import image3 from "../src/assets/logo.png";
+import image4 from "../src/assets/verified.png";
+import { Link } from 'react-router-dom';
+
 function App() {
   const handleLogin = () => {
     window.location.href = "/login";
   };
 
   return (
-    <div className="success-page">
+    <div className="successPage-success-page">
 
       {/* ================= LEFT SECTION ================= */}
-      <section className="left-section">
+      <section className="successPage-left-section">
 
         {/* Logo / Brand */}
-        <div className="brand">
+        <div className="successPage-brand">
           <div>
-            <img  className="brand-icon"src={image3} alt="image3" />
+            <img
+              className="successPage-brand-icon"
+              src={image3}
+              alt="image3"
+            />
           </div>
 
-          <div className="brand-text">
-            <h1>Placement &amp; Recruitment Platform</h1>
+          <div className="successPage-brand-text">
+            <h1>Placement & Recruitment Platform</h1>
             <p>Connect • Discover • Succeed</p>
           </div>
         </div>
 
         {/* Heading */}
-        <div className="left-content">
-          <div className="eyebrow">
+        <div className="successPage-left-content">
+          <div className="successPage-eyebrow">
             NEW BEGINNING AWAIT
           </div>
 
@@ -49,21 +54,24 @@ function App() {
           </p>
         </div>
 
-        {/* Dummy Illustration */}
-        <div className="illustration-wrapper">
-            <img
-              src={image}
-              alt="Reset password illustration"
-              className="reset-illustration"
-            />
-          </div>
-
+        {/* Illustration */}
+        <div className="successPage-illustration-wrapper">
+          <img
+            src={image}
+            alt="Reset password illustration"
+            className="successPage-reset-illustration"
+          />
+        </div>
 
         {/* Bottom Quote */}
-        <div className="testimonial">
+        <div className="successPage-testimonial">
 
-          <div >
-            <img className="testimonial-icon"src={image4} alt="image4" />
+          <div>
+            <img
+              className="successPage-testimonial-icon"
+              src={image4}
+              alt="image4"
+            />
           </div>
 
           <div>
@@ -82,24 +90,25 @@ function App() {
 
       </section>
 
-
       {/* ================= RIGHT SECTION ================= */}
-      <section className="right-section">
+      <section className="successPage-right-section">
 
-        <div className="success-content">
+        <div className="successPage-success-content">
 
           {/* Success Icon */}
-          <div className="success-icon">
+          <div className="successPage-success-icon">
 
-          
-            <div className="outer-circle">
-              <div >
-                <img className="inner-circle" src={image2} alt="image2" />
+            <div className="successPage-outer-circle">
+              <div>
+                <img
+                  className="successPage-inner-circle"
+                  src={image2}
+                  alt="image2"
+                />
               </div>
             </div>
 
           </div>
-
 
           {/* Heading */}
           <h2>
@@ -112,30 +121,32 @@ function App() {
             new password and continue exploring all the opportunities on EduHire.
           </p>
 
-
           {/* Login Button */}
           <button
-            className="login-button"
+            className="successPage-login-button"
             onClick={handleLogin}
           >
             <span>Back to Login</span>
-            <img className="arrow" src={image1} alt="image1" />
+            <img
+              className="successPage-arrow"
+              src={image1}
+              alt="image1"
+            />
           </button>
 
-
           {/* Support */}
-          <div className="support">
+          <div className="successPage-support">
 
-            <span className="support-line"></span>
+            <span className="successPage-support-line"></span>
 
             <span>
               Need help?{" "}
-              <a href="mailto:support@example.com">
+              <Link to="">
                 Contact Support
-              </a>
+              </Link>
             </span>
 
-            <span className="support-line"></span>
+            <span className="successPage-support-line"></span>
 
           </div>
 
